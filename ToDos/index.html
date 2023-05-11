@@ -21,8 +21,13 @@
     </div>
     <div id="header"></div>
     <div class="container">
+        <div id="luck">
+            <p></p>
+        </div>
         <form id="todo-form">
-            <input type="text" placeholder="할일 입력 후 엔터를 치세요" required></input><button class="submitBtn">추가하기</button>
+            <input type="text" name="content" placeholder="할일을 입력하세요" required/>
+            <input type="text" name="hidden" id="hidden"/> <!-- 엔터 새로고침 방지용 -->
+            <button class="submitBtn">추가하기</button>
         </form>
         <ul id="todo-list"></ul>
     </div>
@@ -30,5 +35,6 @@
 
     <script src="./js/localstorage.js"></script>
     <script src="./js/todo.js"></script>
+    <script src="./js/luck.js"></script>
 </body>
 </html>

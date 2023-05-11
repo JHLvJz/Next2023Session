@@ -10,6 +10,11 @@
   font-family: "Black Han Sans";
 }
 
+#header {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
 .usernameWrapper {
   display: flex;
   justify-content: center;
@@ -23,4 +28,20 @@
 
   box-sizing: border-box;
   padding-left: 20px;
+}
+
+.container {
+  margin-top: 50px;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 5px;
+
+  padding-top: 15px;
+  padding-left: 3%;
+
+  border: 5px solid black;
+}
+
+#hidden {
+  display: none;
 }
