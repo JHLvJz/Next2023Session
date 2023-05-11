@@ -1,0 +1,26 @@
+@font-face {
+  font-family: "Black And White Picture", sans-serif;
+  font-family: "Black Han Sans", sans-serif;
+  src: url("https://fonts.googleapis.com/css2?family=Black+And+White+Picture&family=Black+Han+Sans&display=swap");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  font-family: "Black Han Sans";
+}
+
+.usernameWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.username {
+  width: 20%;
+  margin-left: 5%;
+
+  font-size: 1rem;
+
+  box-sizing: border-box;
+  padding-left: 20px;
+}
