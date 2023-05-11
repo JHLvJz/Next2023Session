@@ -41,3 +41,17 @@
 
   border: 5px solid black;
 }
+
+li {
+  margin-bottom: 10px;
+}
+
+li > button {
+  text-align: center;
+  padding-top: 1px;
+  height: 18px;
+  margin-left: 10px;
+  border: 0;
+  outline: 0;
+  appearance: none;
+}
